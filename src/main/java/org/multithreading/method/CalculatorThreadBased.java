@@ -46,7 +46,7 @@ public class CalculatorThreadBased extends CalculatorTemplate {
         }
     }
 
-    static class CalculatorRunnable implements Runnable {
+    public static class CalculatorRunnable implements Runnable {
         private int index;
         private List<int[]> workload;
         private CountDownLatch latch;
